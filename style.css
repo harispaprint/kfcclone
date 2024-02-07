@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    font-family: calibri;
+}
+/**box 1**/
+.banner{
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+.banner-image{
+    width: 40%;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.banner-button{
+    height: 30px;
+    font-size: 12px;
+    width: 99px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    padding: 3px 9px;
+    margin-left: 23px;  
+    background-color:black;
+    color: white;
+    border-radius: 15px;
+    align-items: center;
+}
+
+/**box 2**/
+.banner-logo{
+    border-top: 1px solid rgba(138, 109, 109, 0.719);
+    height: 102px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner-logo-left{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40px;
+}
+.banner-logo-left p{
+    font-weight: 700;
+}
+.banner-logo-right p{
+    font-weight: 700;
+}
+.banner-logo-right{
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.logo1{
+    width: 76px;
+}
+
+/**box 3**/
+.caption{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.caption p{
+    font-weight: 700;
+    color: white;
+}
+.banner-button2{
+    height: 2.75rem;
+    min-width: 10.3rem;
+    font-size: .9rem;
+    width: 99px;
+    font-style: normal;
+    line-height: 22px;
+    padding: 3px 9px;
+    margin-left: 23px;  
+    background-color:#e4002b;
+    color: white;
+    border-radius: 1.4rem;
+    align-items: center;
+}
+.hero-image{
+    height: 380px;
+    background-image: url(Images/Hero\ image.webp);
+}
+.caption-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/**Section-2 - Food Section**/
+.food-section{
+    height: 650px;
+    background-color: white;
+}
+.food-sec-head{
+    height: 22px;
+    width: 276px;
+    margin-top: 100px;
+    margin-left: 100px;
+    font-style: normal;
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+.food-sec-items{
+    width: 17.5vw;
+    height: 17.5vw;
+    margin: 2%;
+    position: relative;
+    background-color: #f8f7f5;
+    justify-content: center;
+    align-items: center;
+}
+.box-image{
+    width: 100%;
+    height: 12.96296vw;
+    background-size: cover;
+    margin-bottom: 1 rem;
+}
+.food-sec-items p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 25px;
+    font-family: fantasy;
+    letter-spacing: .5px
+}
+.food-sec-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.food-sec-content-row{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.hover-hand {
+    cursor: pointer;
+  }
+  .hover-hand:hover {
+    cursor: pointer;
+  }
+
+  /**Offer Section**/
+  .offer-section{
+    height: 740px;
+    background-color: #202124;
+  }
+  .offer-sec-content{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.offer-sec-items{
+    height: 398px;
+    width: 309px;
+    margin: 2%;
+    position: relative;
+    background-color: #f8f7f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+
+}
+.offer-sec-items p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    font-family: fantasy;
+    letter-spacing: .5px;
+    line-height: 20px;
+    color: #e4002b;
+    font-size: 25px;
+}
+.box-image1{
+    height: 58.25%;
+    background-size: cover;
+    margin-bottom: 1 rem;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.redeem-button{
+    height: 45px;
+    font-size: 14px;
+    width: 140px;
+    font-style: normal;
+    font-weight: 700;
+    border-width: 2px;
+    padding: 10px 40px;
+    margin: 10px;
+    margin-left: auto;
+    border: 1px solid #494949;
+    color: black;
+    border-radius: 10rem;
+    align-items: center;
+}
+.hover-hand-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+  }
+ 
