@@ -4,169 +4,352 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
-<link rel="stylesheet" href="style.css">
-<link href="https://db.onlinewebfonts.com/c/4e9403b0d7cf02d4dcb241cce29856d2?family=National+2+Condensed" rel="stylesheet">
 <body>
-    <div class="banner">
-        <div class="banner-image">
-            <img src="Images/location.svg" alt="not available">
-            <div class="location-text">Allow location access for local store menu and promos</div>
-            <button class="banner-button hover-hand" role="button">Set Location</button>            
-        </div>
-    </div>
-    <div class="banner-logo">
-        <div class="banner-logo-left"> 
-            <img class="logo1" src="Images/kfcLogo.svg" alt="no logo">
-            <p>Menu</p>
-            <p>Deals</p>
-        </div>
-        <div class="banner-logo-right"> 
-            <img class="logo1" style="width: 25px;" src="Images/Account_Icon.svg" alt="no logo">
-             <p>Sign In</p>
-             <p>₹ 0</p>
-             <img class="logo1" style="width: 50px;" src="Images/bucket_cart_icon.svg"no logo">
-        </div>
-    </div>
-    <div class="caption">
-        <div class="caption-container">
-            <p style="font-family: National 2 Condensed;">LET'S ORDER FOR DELIVERY, PICK UP, OR DINE-IN</p>
-            <button class="banner-button2 hover-hand" role="button">Start Order</button>
-        </div>
-    </div>
-    <div class="hero-image">
-    </div>
-
-
-    <div class="food-section">
-        <div class="food-sec-head">
-            <p>BROWSE CATEGORIES</p>
-        </div>
-        <div class="food-sec-content">
-            <div class="food-sec-content-row">
-                <div class="food-sec-items hover-hand">
-                        <div class="box-image" style="background-image: url('Images/peri_peri_chicken.jpg');"></div>
-                        <p>PERI PERI CHICKEN</p>
-                </div>
-                <div class="food-sec-items hover-hand">
-                    <div class="box-image" style="background-image: url('Images/value_snackers.jpg');"></div>
-                    <p>VALUE SNACKERS</p>
-                </div>
-                <div class="food-sec-items hover-hand">
-                    <div class="box-image" style="background-image: url('Images/chcicken_rolls.jpg');"></div>
-                    <p>CHICKEN ROLLS</p>
-                </div>
-                <div class="food-sec-items hover-hand">
-                    <div class="box-image" style="background-image: url('Images/chcicken_buckects.jpg');"></div>
-                    <p>CHICKEN BUCKETS</p>
-                </div>
+    <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo">
             </div>
         </div>
-        <div class="food-sec-content">
-            <div class="food-sec-content-row">
-                <div class="food-sec-items hover-hand">
-                        <div class="box-image" style="background-image: url('Images/biriyani_bucket.jpg');"></div>
-                        <p>BIRIYANI BUCKETS</p>
-                </div>
-                <div class="food-sec-items hover-hand">
-                    <div class="box-image" style="background-image: url('Images/box_meals.jpg');"></div>
-                    <p>BOX MEALS</p>
-                </div>
-                <div class="food-sec-items hover-hand">
-                    <div class="box-image" style="background-image: url('Images/burgers.jpg');"></div>
-                    <p>BURGERS</p>
-                </div>
-                <div class="food-sec-items hover-hand">
-                    <div class="box-image" style="background-image: url('Images/view_all_menu.jpg');"></div>
-                    <p>View All Menu</p>
-                </div>
+
+        <div class="nav-adr border">
+            <p class="adr-1">Deliver to</p>
+            <div class="adr-icon">
+                <i class="fa-solid fa-location-dot"></i>
+                <p class="adr-2">India</p>
+            </div>
+        </div>
+
+        <div class="nav-search">
+           <select class="search-select">
+            <option>All</option>
+           </select>
+           <input placeholder="Search Amazon" class="search-input">
+           <div class="search-icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+           </div>
+        </div>
+
+        <div class="nav-signin border">
+            <p><span class="span1">Hello, sign in</span></p>
+            <p class="nav-signin-1">Account & List</p>
+        </div>
+
+        <div class="nav-signin border">
+            <p><span class="span1">Returns</span></p>
+            <p class="nav-signin-1">& Orders</p>
+        </div>
+       
+        <div class="nav-cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        Cart
+        </div>
+        
+    </div>
+    <div class="panelbar">
+        <div class="panel-menu">
+            <i class="fa-solid fa-bars"></i>
+            All
+        </div>
+        <div class="panel-options">
+            <p>Today's Deal</p>
+            <p>Customer Service</p>
+            <p>Registry</p>
+            <p>Gift Cards</p>
+            <p>Sell</p>
+        </div>
+        <div class="panel-deals">
+            Shop Deals in Electronics
+        </div>
+    </div>
+    <div class="hero-section">
+        <p class="hero-msg">You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery. <a>Click here to go to amazon.in</a></p>
+    </div>
+    <div class="shop-section">
+        <div class="box1 box">
+            <div class="box-content">
+                <h2 class="category-title">New year, new supplies</h2>
+                <div class="box-image" style="background-image: url('images/NEW_YEAR.jpg');"></div>
+                <p class="category-botoom-text">Shop Office Products</p>
+            </div>
+        </div>
+
+        <div class="box2 box">
+            <div class="box-content">
+                <h2 class="category-title">Deals in PCs</h2>
+                <div class="box-image" style="background-image: url('images/Deals_in_PCs.jpg');"></div>
+                <p class="category-botoom-text">Shop now</p>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2 class="category-title">Toys under $25</h2>
+                <div class="box-image" style="background-image: url('images/toys.jpg');"></div>
+                <p class="category-botoom-text">Shop now</p>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2 class="category-title">Lunar New Year</h2>
+                <div class="box-image" style="background-image: url('images/LUNAR_NEW_YEAR.jpg');"></div>
+                <p class="category-botoom-text">Shop now</p>
+            </div>
+        </div>
+        <div class="box1 box">
+            <div class="box-content">
+                <h2 class="category-title">New year, new supplies</h2>
+                <div class="box-image" style="background-image: url('images/NEW_YEAR.jpg');"></div>
+                <p class="category-botoom-text">Shop Office Products</p>
+            </div>
+        </div>
+
+        <div class="box2 box">
+            <div class="box-content">
+                <h2 class="category-title">Deals in PCs</h2>
+                <div class="box-image" style="background-image: url('images/Deals_in_PCs.jpg');"></div>
+                <p class="category-botoom-text">Shop now</p>
+            </div>
+        </div>
+        <div class="box3 box">
+            <div class="box-content">
+                <h2 class="category-title">Toys under $25</h2>
+                <div class="box-image" style="background-image: url('images/toys.jpg');"></div>
+                <p class="category-botoom-text">Shop now</p>
+            </div>
+        </div>
+        <div class="box4 box">
+            <div class="box-content">
+                <h2 class="category-title">Lunar New Year</h2>
+                <div class="box-image" style="background-image: url('images/LUNAR_NEW_YEAR.jpg');"></div>
+                <p class="category-botoom-text">Shop now</p>
             </div>
         </div>
     </div>
 
-
-    <div class="offer-section">
-            
-                <svg class="top-rec-design" width="80" height="42">
-                    <rect x="0" y="0" width="20" height="42" fill="rgb(228, 0, 43)"></rect>
-                    <rect x="30" y="0" width="20" height="42" fill="rgb(228, 0, 43)"></rect>
-                    <rect x="60" y="0" width="20" height="42" fill="rgb(228, 0, 43)"></rect>
-                  </svg>
-            <div class="offer-header">
-                <h2>OFFERS &amp; DEALS</h2>
-                <a>View All Deals</a>
-            </div>
-            <div class="offer-sec-content">
-                <div class="offer-sec-items">
-                    
-                    <img class="box-image1" src="Images/zinger.jpg" alt="no image">
-                    <p>FREE CHICKEN . .</p>
-                    <p style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: black;">1 Pc free Chicken Zinger on a cart value of 499 or above on first order. Only for registered users.</p>
-                    <button class="redeem-button hover-hand-button" role="button">Redeem</button>
-                </div>
-                <div class="offer-sec-items">
-                    <img class="box-image1" src="Images/zinger.jpg" alt="no image">
-                    <p>FREE CHICKEN . .</p>
-                    <p style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: black;">1 Pc free Chicken Zinger on a cart value of 499 or above on first order. Only for registered users.</p>
-                    <button class="redeem-button hover-hand-button" role="button">Redeem</button>
-                </div>
-                <div class="offer-sec-items">
-                    <img class="box-image1" src="Images/zinger.jpg" alt="no image">
-                    <p>FREE CHICKEN . .</p>
-                    <p style="font-family: Arial, Helvetica, sans-serif;font-size: 12px;color: black;">1 Pc free Chicken Zinger on a cart value of 499 or above on first order. Only for registered users.</p>
-                    <button class="redeem-button hover-hand-button" role="button">Redeem</button>
-                </div>
-                
-            </div>
-    </div>
     <footer>
-        <div class="footer-content-row1">
-            <div class="footer-logo"></div>
-            <div class="footer-list">
-                <ul>
-                    <a>Legal</a>
-                    <a>Terms and Conditions</a>
-                    <a>Privacy Policy</a>
-                    <a>Disclaimer</a>
-                    <a>Caution Notice</a>
-                </ul>
-                <ul>
-                    <a>KFC India</a>
-                    <a>About KFC</a>
-                    <a>KFC Care</a>
-                    <a>Careers</a>
-                    <a>Our Golden Past</a>
-                </ul>               
-                <ul>
-                    <a>KFC Food</a>
-                    <a>Menu</a>
-                    <a>Order Lookup</a>
-                    <a>Gift Card</a>
-                    <a>Nutrition & Allergen</a>
-                </ul>
-                <ul>
-                    <a>Support</a>
-                    <a>Get Help</a>
-                    <a>Contact Us</a>
-                    <a>KFC Feedback</a>
-                    <a>Privacy Policy</a>
-                </ul>
-            </div>
-            <div class="find-kfc">
-                <img src="Images/location.svg" alt="not available">
-                <div class="location-text2">Find a KFC</div>
-            </div>
-            <div class="google-playstore-logo"></div>
-            <div class="apple-logo"></div>
+        <div class="footer-panel1">
+            Back to top
         </div>
-        <div class="footer-content-row2">
-            <p>Copyright © KFC Corporation 2024 All Rights Reserved</p>
-            <div class="social-media-logos">
-                <img src="Images/Social_Insta_White.svg" alt="on image">
-                <img src="Images/Social_Facebook_White.svg" alt="on image">
-                <img src="Images/Social_Twitter_White.svg" alt="on image">
+        <div class="footer-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Amazon Hub</a>
+                <a>›See More Make Money with Us</a>
+            </ul>
+  
+            <ul>
+                <p> Amazon Payment Products</p>
+                <a>Amazon Business Card</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Returns & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>About Amazon</a>
+                <a>Amazon Assistant</a>
+                <a>Help</a>
+            </ul>
+  
+        </div>
+        <div class="footer-panel3">
+            <div class="logo1"></div>
+        </div>
+
+        <div class="footer-panel4">
+            <table class="footer-table">
+                <tr class="table-row">
+                    <td>
+                        <a>
+                            Amazon Music<br><span class="span2">Stream millions<br>of songs</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            Amazon Ads<br><span class="span2">Reach customers<br>wherever they<br>spend their time</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="table-row">
+                    <td>
+                        <a>
+                            Amazon Music<br><span class="span2">Stream millions<br>of songs</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            Amazon Ads<br><span class="span2">Reach customers<br>wherever they<br>spend their time</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="table-row">
+                    <td>
+                        <a>
+                            Amazon Music<br><span class="span2">Stream millions<br>of songs</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            Amazon Ads<br><span class="span2">Reach customers<br>wherever they<br>spend their time</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                </tr>
+                <tr class="table-row">
+                    <td>
+                        <a>
+                            Amazon Music<br><span class="span2">Stream millions<br>of songs</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            Amazon Ads<br><span class="span2">Reach customers<br>wherever they<br>spend their time</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>
+                    <td class="table-space"></td>
+                    <td>
+                        <a>
+                            6pm<br><span class="span2">Score deals<br>on fashion<br>brands</span>
+                        </a>
+                    </td>                    
+                </tr>
+            </table>
+            <div class="footer-panel4-end">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+                <p>© 1996-2024, Amazon.com, Inc. or its affiliates</p>
             </div>
         </div>
+        
     </footer>
+    
 </body>
 </html>
